@@ -1,0 +1,81 @@
+h1 {
+  text-align: center;
+}
+
+.configuration {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.word-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.word {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.letter {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 5px;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ignore {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.right-letter {
+  background-color: #6aaa64 !important;
+}
+
+.wrong-position-letter {
+  background-color: #c9b458 !important;
+}
+
+.wrong-letter {
+  background-color: #787c7e !important;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 650px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Wordle 2.0 - When one word is not enough",
+    "language": "Language",
+    "wordLength": "Word Length",
+    "difficulty": "Difficulty",
+    "difficulty-levels": {
+        "easy": "Easy",
+        "medium": "Medium",
+        "hard": "Hard"
+    },
+    "generateWord": "Generate Word",
+    "loading": "Loading...",
+    "instructions": "Select the desired configurations on top and then click on \"Generate Word\" to start the game",
+    "win": "You win!"
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Wordle 2.0 - Cuando una palabra no es suficiente",
+    "language": "Idioma",
+    "wordLength": "Longitud de la palabra",
+    "difficulty": "Dificultad",
+    "difficulty-levels": {
+        "easy": "Fácil",
+        "medium": "Medio",
+        "hard": "Difícil"
+    },
+    "generateWord": "Generar Palabra",
+    "loading": "Cargando...",
+    "instructions": "Selecciona las configuraciones deseadas en la parte superior y luego haz clic en \"Generar Palabra\" para iniciar el juego",
+    "win": "¡Ganaste!"
+}
