@@ -1,7 +1,7 @@
 <h1>{{ languageHandler.getTranslation('title') }}</h1>
 <section class="configuration">
   <label for="language">{{ languageHandler.getTranslation('language') }}</label>
-  <select id="language" (change)="onLanguageChange($event)">
+  <select id="language" (change)="onLanguageChange($event)" disabled>
     <option *ngFor="let language of wordGenerator.getAvailableLanguages()" [value]="language">{{ language }}</option>
   </select>
   <label for="wordLength">{{ languageHandler.getTranslation('wordLength') }}</label>
